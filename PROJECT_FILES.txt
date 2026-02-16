@@ -1,0 +1,56 @@
+# WTP Project — All Files (use this to verify files are present)
+
+cusrorfirst/
+├── backend/
+│   ├── .env
+│   ├── .env.example
+│   ├── package.json
+│   ├── Dockerfile
+│   └── src/
+│       ├── index.js
+│       ├── seedAdmin.js
+│       ├── models/
+│       │   ├── User.js
+│       │   └── WtpDesign.js
+│       ├── middleware/
+│       │   └── auth.js
+│       └── routes/
+│           ├── auth.js
+│           ├── wtp.js
+│           ├── user.js
+│           └── admin.js
+├── frontend/
+│   ├── .env.example
+│   ├── index.html
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   ├── vite.config.js
+│   ├── Dockerfile
+│   ├── nginx.conf
+│   ├── public/
+│   │   └── favicon.svg
+│   └── src/
+│       ├── main.jsx
+│       ├── App.jsx
+│       ├── index.css
+│       ├── lib/
+│       │   └── api.js
+│       ├── context/
+│       │   └── AuthContext.jsx
+│       ├── components/
+│       │   ├── Layout.jsx
+│       │   ├── WaterScene.jsx
+│       │   └── WtpScene.jsx
+│       └── pages/
+│           ├── Landing.jsx
+│           ├── Login.jsx
+│           ├── Register.jsx
+│           ├── Dashboard.jsx
+│           ├── Designer.jsx
+│           ├── Admin.jsx
+│           ├── Pricing.jsx
+│           └── Quote.jsx
+├── docker-compose.yml
+├── README.md
+└── PROJECT_FILES.txt (this file)
